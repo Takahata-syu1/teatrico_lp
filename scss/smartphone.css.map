@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,kBAAkB;EAElB,AAAA,GAAG,CAAC;IACA,OAAO,EAAE,KAAK;GACjB;EACD,AAAA,GAAG,CAAC;IACA,OAAO,EAAE,IAAI;GAChB;EACD,AAAA,MAAM,CAAC;IACH,OAAO,EAAE,gBAAgB;GAC5B;EACD,AAAA,MAAM,CAAC;IACH,OAAO,EAAE,eAAe;GAC3B;EAED;;;;gDAI4C;EAE5C;;;;gDAI4C;;;AAC9C,iCAAiC",
+    "sources": [
+        "smartphone.scss"
+    ],
+    "names": [],
+    "file": "smartphone.css"
+}

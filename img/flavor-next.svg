@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81.066" height="30.297" viewBox="0 0 81.066 30.297">
+  <g id="flavor-next" transform="translate(-312.5 -4741)">
+    <g id="グループ_272" data-name="グループ 272" transform="translate(-3829.5 4967.297) rotate(-90)" style="mix-blend-mode: multiply;isolation: isolate">
+      <path id="線_11" data-name="線 11" d="M0,80.5A.5.5,0,0,1-.5,80V0A.5.5,0,0,1,0-.5.5.5,0,0,1,.5,0V80A.5.5,0,0,1,0,80.5Z" transform="translate(206.5 4142.5)" fill="#3e3a39"/>
+      <path id="パス_363" data-name="パス 363" d="M2726.7,4247.045l-.236-.123-9.992-5.218a.5.5,0,0,1,.463-.887l9.756,5.095,9.369-5.091a.5.5,0,1,1,.478.879Z" transform="translate(-2520.208 -23.979)" fill="#3e3a39"/>
+    </g>
+    <text id="NEXT" transform="translate(331 4753)" fill="#3e3a39" font-size="12" font-family="Lato-Regular, Lato" letter-spacing="0.12em"><tspan x="-17.643" y="0">NEXT</tspan></text>
+  </g>
+</svg>

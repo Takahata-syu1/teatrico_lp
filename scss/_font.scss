@@ -1,0 +1,76 @@
+/*--文書う文字サイズの基準--*/
+.font-16 {
+    font-size: 1.4rem;
+    @media screen and (min-width: 640px) {
+        font-size: 1.6rem;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 1.6rem;
+    }
+}
+
+.font-24 {
+    font-size: 4vw;
+    @media screen and (min-width: 640px) {
+        font-size: 2vw;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 2.4rem;
+    }
+}
+
+.font-32 {
+    font-size: 6vw;
+    font-weight: 600;
+    line-height: 140%;
+    @media screen and (min-width: 640px) {
+        font-size: 3.2vw;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 3.2rem;
+    }
+}
+.font-40 {
+    font-size: 7vw;
+    font-weight: 600;
+    line-height: 140%;
+    @media screen and (min-width: 640px) {
+        font-size: 4vw;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 4rem;
+    }
+}
+.font-48 {
+    font-size: 6vw;
+    font-weight: 600;
+    line-height: 140%;
+    @media screen and (min-width: 640px) {
+        font-size: 4vw;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 4.8rem;
+    }
+}
+.font-56 {
+    font-size: 7vw;
+    font-weight: 600;
+    line-height: 140%;
+    @media screen and (min-width: 640px) {
+        font-size: 5vw;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 5.6rem;
+    }
+}
+.font-80 {
+    font-size: 8vw;
+    text-align: center;
+    font-weight: 400;
+    @media screen and (min-width: 640px) {
+        font-size: 7vw;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 8rem;
+    }
+}

@@ -1,0 +1,29 @@
+// background-image
+$PATH_IMG: "../img/";
+@mixin background-image($fileName) {
+    background-image: url($PATH_IMG + $fileName);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    @content;
+}
+
+// メディアクエリ
+$sp: 640px;
+$tab: 767px;
+$pc: 1080px;
+
+@mixin sp {
+    @media (max-width: ($sp)) {
+        @content;
+    }
+}
+@mixin tab {
+    @media (max-width: ($tab)) {
+        @content;
+    }
+}
+@mixin pc {
+    @media (min-width: ($pc)) {
+        @content;
+    }
+}

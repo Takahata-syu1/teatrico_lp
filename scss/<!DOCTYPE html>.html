@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Shake Animation</title>
+    <style>
+        img {
+            position: absolute;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            function shakeImage() {
+                $('img').animate({ left: "-=10px" }, 50)
+                    .animate({ left: "+=20px" }, 100)
+                    .animate({ left: "-=20px" }, 100)
+                    .animate({ left: "+=20px" }, 100)
+                    .animate({ left: "-=10px" }, 50);
+            }
+
+            // 画像をクリックした時にアニメーションを開始する
+            $('img').click(function () {
+                shakeImage();
+            });
+        });
+    </script>
+</head>
+<body>
+    <img src="path_to_your_image.jpg" alt="Shaking Image" width="200" height="200">
+</body>
+</html>

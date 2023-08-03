@@ -1,0 +1,35 @@
+body {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #3E3A39;
+    line-height: 1.5;
+    background-color: #FBFBFB;
+    overflow: hidden;
+}
+
+//-------- 404 --------
+.contant404 {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+    h3 {
+        font-size: 16vw;
+        margin-bottom: 24px;
+    }
+
+    span {
+        display: block;
+        margin-bottom: 24px;
+    }
+
+    a {
+        color: #fff;
+        margin: 32px 0;
+        background-color: #007c3e;
+        display: inline-block;
+        padding: 8px 16px;
+    }
+}

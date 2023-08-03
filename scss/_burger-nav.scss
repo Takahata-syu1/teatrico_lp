@@ -1,0 +1,148 @@
+.header-inner {
+    display: none;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    height: 56px;
+    position: fixed;
+    left: 8px;
+    z-index: 2;
+    box-sizing: border-box;
+    max-width: 500px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+.menu-trigger {
+    display: inline-block;
+    position: absolute;
+    width: 32px;
+    height: 8px;
+    top: 24px;
+    right: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+    z-index: 2;
+
+    span {
+        display: inline-block;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #000;
+        transition: all .5s .2s;
+    }
+
+    span:nth-of-type(1) {
+        top: 0;
+    }
+
+    &.active span:nth-of-type(1) {
+        transform: translateY(12px) rotate(-45deg);
+    }
+
+    span:nth-of-type(2) {
+        top: 8px;
+        width: 24px;
+    }
+
+    &.active span {
+        &:nth-of-type(1) {
+            width: 24px;
+            top: -6px;
+        }
+
+        &:nth-of-type(2) {
+            transform: translateY(-12px) rotate(45deg);
+            top: 18px;
+        }
+    }
+}
+
+.pc-nav {
+    position: relative;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+    >img {
+        position: absolute;
+        z-index: 2;
+        top: 24px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: block;
+
+    }
+
+    .inner {
+        width: 100%;
+        background-color: #fff;
+        color: #3E3A39;
+        text-align: center;
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+
+        img {
+            display: block;
+            margin: 24px auto 0;
+        }
+
+        .nav-vcontent {
+            position: relative;
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            z-index: 10;
+
+            ul {
+                padding: 20px 0;
+                width: 100%;
+
+                position: absolute;
+                bottom: -120%;
+
+                li {
+                    padding: 15px 0;
+                    -webkit-transition: all 4s;
+                    -moz-transition: all 4s;
+                    -ms-transition: all 4s;
+                    -o-transition: all 4s;
+                    transition: all 4s;
+                    opacity: 0;
+
+                    a {
+                        color: #3E3A39;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            ul.show {
+                transition-duration: 2s;
+                bottom: 0;
+                position: relative;
+
+                li {
+                    opacity: 1;
+                }
+
+            }
+
+
+        }
+    }
+}
+
+
+main p {
+    margin-bottom: 50px;
+}

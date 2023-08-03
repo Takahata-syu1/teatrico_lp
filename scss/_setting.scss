@@ -1,0 +1,33 @@
+.pc {
+    display: block;
+}
+.sp {
+    display: none;
+}
+.pc-br {
+    display: block;
+}
+.sp-br {
+    display: none;
+}
+.flex {
+    display: flex;
+}
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+@include sp {
+    .sp {
+        display: block;
+    }
+    .pc {
+        display: none;
+    }
+    .sp-br {
+        display: block;
+    }
+    .pc-br {
+        display: none;
+    }
+}
